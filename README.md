@@ -1,4 +1,4 @@
-# HollowKnight.Snomsnom
+# HollowKnight.Snom
 This mod replaces Tiktiks in Hollow Knight with snoms. Enjoy the icy, buggy goodness in the vast world of Hallownest!
 
 Note that this mod is not compatible with Transtrans, and will be overridden by Transtrans if both are enabled simultaneously. Please disable Transtrans before use.
