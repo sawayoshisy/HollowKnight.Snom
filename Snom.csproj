@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Snom</RootNamespace>
+    <AssemblyName>Snom</AssemblyName>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyTitle>Snom</AssemblyTitle>
+    <Product>Snom</Product>
+    <Description>A Hollow Knight Mod</Description>
+    <Copyright>Copyright ©  2023</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Snom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Snom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="ReadMe.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="HKBuildUtils" Version="0.5.56">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>
