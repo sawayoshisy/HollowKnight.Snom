@@ -5,5 +5,5 @@ Note that this mod is not compatible with Transtrans, and will be overridden by 
 
 # Credits
 Sawayoshi - Artwork, original concept  
-Peekadutch - Coding  
-Katie, 56 - Creation of original Transtrans mod
+Peekadutch - Mod building
+Katie, 56 - Artwork and code of original Transtrans mod
